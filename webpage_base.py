@@ -1,5 +1,18 @@
-# gotowy podstawowy interfejs strony, trzeba popodstawiać wartwy
-
+# Olkusz Mining Data Web App
+# ------------------------------------------
+# This Streamlit app presents an interactive map of the Olkusz region,
+# focused on visualizing geohazards and mining-related environmental changes.
+#
+# Features:
+# - Custom color palette and branding (top bar, logo, background)
+# - Multiple map base layers (OpenStreetMap, CartoDB, Stamen Terrain)
+# - Custom markers for key sites with informative popups
+# - Responsive, styled UI sections: Home, Overview, Capabilities, Contact
+# - Placeholder for future interactive map layer controls
+# - Fixed top navigation bar and custom footer with team info and links
+# - All assets (icons, images) loaded as base64 for compatibility
+#
+# Developed for NASA Space Apps Hackathon by team ITB.
 
 import base64
 import streamlit as st

@@ -1,4 +1,19 @@
-# gotowy podstawowy interfejs strony, trzeba popodstawiać wartwy
+# Olkusz Geohazards Interactive Map App
+# ------------------------------------------
+# This Streamlit app provides an interactive map of the Olkusz region
+# for visualizing geohazards and environmental changes related to mining.
+#
+# Features:
+# - Custom color palette, branding, and fixed top navigation bar
+# - Multiple map base layers (OpenStreetMap, CartoDB)
+# - Custom site markers with informative popups
+# - Raster overlays (NDWI, BSM, etc.) with per-layer controls:
+#     - Toggle visibility, adjust hue, saturation, and transparency
+# - Responsive UI sections: Home, Overview, Capabilities, Contact
+# - Custom footer with team info and project/network links
+# - All assets (icons, images) loaded as base64 for compatibility
+#
+# Developed for NASA Space Apps Hackathon by team ITB.
 
 import io, os, base64
 import numpy as np

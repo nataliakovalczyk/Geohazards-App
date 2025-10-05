@@ -1,4 +1,20 @@
-# Temporal GeoTIFF Viewer — per-layer hue & opacity, alpha gradient, caching
+# Temporal GeoTIFF Viewer for Olkusz Geohazards
+# ---------------------------------------------
+# This Streamlit app provides an interactive map for visualizing geohazards and environmental changes
+# in the Olkusz region using temporal and static raster data (GeoTIFFs).
+#
+# Main features:
+# - Interactive map with multiple base layers (OpenStreetMap, CartoDB)
+# - Custom markers for key sites with informative popups
+# - Dynamic loading and visualization of static and temporal raster overlays
+# - Per-layer controls for hue and opacity, including alpha gradient rendering
+# - Efficient raster caching for fast user experience
+# - Sidebar controls for display options and rendering parameters
+# - User interface for selecting and styling layers
+# - Automatic color and opacity assignment for multiple overlays
+#
+# Developed for NASA Space Apps Hackathon by team ITB.
+
 import io, os, base64, re
 from pathlib import Path
 from datetime import datetime, date
